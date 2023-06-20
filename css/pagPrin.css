@@ -1,0 +1,45 @@
+body{
+    background-image: url(../img/verao-na-praia.avif);
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.respo1{
+    background-color: #FEA1A1;
+    width: 50%;
+    margin: 50PX;
+    margin: 50px;
+    
+    
+}
+.respo2{
+    background-color: #FF0060;
+    padding: 50px;
+    width: 50%;
+    margin: 50PX;
+}
+.respo3{
+   background-color: #FF8400;
+    padding: 50px;
+    width: 50%;
+    margin: 50PX;
+}
+.respo4{
+    background-color: #30A2FF;
+    padding: 50px;
+    margin: 50PX;
+    width: 50%;
+}
+.respostasAB{
+    display: flex;
+}
+.respostasCD{
+    display: flex;
+}
+.div{
+    justify-content: center;
+    min-height: 500px;
+    min-width: 600px;
+    padding: 10px;
+}

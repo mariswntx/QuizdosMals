@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/Group\ 52.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.div {
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    justify-content: center;
+    min-height: 500px;
+    width: 450px;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: rgb(17, 106, 123);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.input {
+    border-radius: 7px;
+    background-color: rgba(217, 217, 217, 1);
+    padding: 20px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.botao:hover {
+    background-color: rgb(172, 172, 43);
+}
+
+.botao {
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.botao2 {
+    margin-top: 30px;
+}
+
+
+.cabecalho {
+    background-color: #116A7B;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+
+}
+
+.cabecalho>img {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu>li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu>li>a {
+    color: #ECE5C7;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+body {
+    background-color: #C2DEDC;
+}
+.link{
+    padding: 20px;
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 8px;
+    color: rgba(148, 148, 148, 0.734);
+}
+.imagemlink{
+    width: 270px;
+    height: 150px;
+}
+
+#cadastroImagem{
+    width: 150px;
+    height: 200px;
+}

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+
+
+h1{
+    font-family: 'Diphylleia', serif;
+    font-size: 80px;
+    margin-bottom: 200px;
+   
+}
+body{
+    background-color: #C2DEDC;
+    align-items: center;
+    text-align: center;
+    /*background-image: url(../img/verao-na-praia.avif);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cabecalho {
+    background-color: #116A7B;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+
+}
+.cabecalho > img{
+    height: 60px;
+}
+.menu{
+    display:flex ;
+}
+.menu > li{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.menu > li > a{
+    color: #ECE5C7;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600; 
+}
+.menu > li:hover{
+    background-color: rgba(0, 0, 0, 0.403);
+    border-radius: 15px;    
+
+}
+.botaoini{
+    margin:100px;
+    padding: 120px;
+    border-radius: 150px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background: linear-gradient(30deg, rgb(183, 107, 226) 20%, rgb(100, 0, 176) 80%);
+    transition: all 0.3s ease-in-out 0s;
+    box-shadow: rgba(193, 244, 246, 0.698) 0px 0px 0px 0px;
+    animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
+    align-items: center;
+    border: 0;
+    margin:0 auto ;
+  }
+  
+  .button:is(:hover, :focus) {
+    transform: scale(1.2);
+  }
+  
+  @keyframes pulse {
+    100% {
+      box-shadow: 0 0 0 45px rgba(193,244,246,0);
+    }
+  }
+
+  .fazer{
+    margin-top: 80px;
+  }
+  

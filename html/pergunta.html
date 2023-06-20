@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/img/favicon-16x16.png">
+    <link rel="stylesheet" href="/css/login.css">
+    <script defer src="/js/cadastroPerg.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="div">
+
+            <div>
+                <h1> Cadastro de Perguntas </h1>
+                <input class="input" type="text" id="inp" placeholder="Pergunta">
+            </div>
+            <div>
+                <input type="text" id="imagem" class="link" placeholder="Insira o link da imagem "
+                    onkeyup="carregarImagem()">
+                <br> <img class="imagemlink" src="" id="img">
+            </div>
+            <div>
+                <input class="input" type="text" id="inp1" placeholder="Resposta A">
+            </div>
+            <div>
+
+                <input class="input" type="text" id="inp2" placeholder="Resposta B">
+            </div>
+            <div>
+
+                <input class="input" type="text" id="inp3" placeholder="Resposta C">
+            </div>
+            <div>
+
+                <input class="input" type="text" id="inp4" placeholder="Resposta D">
+            </div>
+
+            <div>
+                <img src="" alt="" id="cadastroImagem">
+            </div>
+            <div>
+                <select name="Plataforma" required="required" class="certo" id="correta"></li>
+                    <option value=""> Selecione a Certa</option>
+                    <option value="A"> Alternativa A</option>
+                    <option value="B"> Alternativa B</option>
+                    <option value="C"> Alternativa C</option>
+                    <option value="D"> Alternativa D</option>
+                </select>
+            </div>
+            <div class="botao">
+                <button href="#" onclick="cadastrarPergn()" class="botaoPerg"> cadastrar Perguntas <svg
+                        viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="26px">
+                        <path
+                            d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+                            fill="currentColor"></path>
+                    </svg></button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
