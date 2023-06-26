@@ -32,7 +32,7 @@ function cadastrar(){
      document.getElementById("inp2").value= ''
      document.getElementById("inp").focus()
 
-     location.href="index.html"
+     location.href = "../index.html"
 }
 
 
