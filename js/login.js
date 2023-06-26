@@ -12,15 +12,16 @@ function entrar() {
     var encontrado = false
     listaCadastro.forEach((item, i) => {
         if (nome == item.email && senha == item.senha) {
-            alert('Bem Vindo ao Quiz dos Mals')
             encontrado = true
-            location.href="pagPrincipal.html"
         }
     })
 
     if (encontrado == false) {
         alert ('Usuário não encontrado')
         return
+    } else {
+        alert('Bem Vindo ao Quiz dos Mals')
+        location.href="pagPrincipal.html"
     }
 
     

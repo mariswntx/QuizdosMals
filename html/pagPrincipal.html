@@ -4,33 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quiz do mal's</title>
     <link rel="stylesheet" href="../css/pagPrin.css">
+    <link rel="shortcut icon" href="/img/favicon-16x16.png" >
     <script defer src="../js/cadastroPerg.js"></script>
 </head>
 
 <body onload="sortear()">
 
+    <div id="pontuacao">
+        <p id="pt1" class="pontos">0</p>
+    </div>
+
     <h3 id="pergunta"> </h3>
 
     <div>
-        <img src="" class="imagemlink" id="cadastroImagem">
+        <img src="" class="imagemlink" id="imagemlink">
     </div>
 
     <div class="respostasAB">
-        <button class="respo1" id="resp1">RESPOSTA A</button>
+        <button onclick="ResponderCerta('A')" class="respo1 resposta" id="resp1">RESPOSTA A</button>
 
-        <button class="respo2" id="resp2">RESPOSTA B</button>
+        <button onclick="ResponderCerta('B')" class="respo2 resposta" id="resp2">RESPOSTA B</button>
     </div>
 
     <div class="respostasCD">
-        <button class="respo3" id="resp3">RESPOSTA C</button>
+        <button onclick="ResponderCerta('C')" class="respo3 resposta" id="resp3">RESPOSTA C</button>
 
-        <button class="respo4" id="resp4">RESPOSTA D</button>
+        <button onclick="ResponderCerta('D')" class="respo4 resposta" id="resp4">RESPOSTA D</button>
     </div>
 
-   
+
+    <script src="../js/paginaprin.js"></script>
 
 </body>
-<script src="/js/cadastroPerg.js"></script>
 </html>

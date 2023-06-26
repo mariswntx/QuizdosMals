@@ -18,8 +18,8 @@ body {
     margin: 0 auto;
     background-color: aliceblue;
     justify-content: center;
-    min-height: 500px;
-    width: 450px;
+    min-height: 300px;
+    width: 350px;
     padding: 10px;
     margin-top: 30px;
     background-color: rgb(17, 106, 123);
@@ -42,18 +42,21 @@ body {
 }
 
 .botao {
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: black;
-    color: rgb(255, 255, 255);
+    color: rgb(227, 222, 222);
     padding: 5px;
     font-size: 20px;
     text-decoration: none;
+    margin-top: 20px;
+    width: 100px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
 }
-
-.botao2 {
-    margin-top: 30px;
+.botao > a{
+    text-decoration: none;
 }
-
 
 .cabecalho {
     background-color: #116A7B;
@@ -90,19 +93,21 @@ body {
 body {
     background-color: #C2DEDC;
 }
-.link{
+
+.link {
     padding: 20px;
     margin-top: 20px;
     width: 300px;
     border-radius: 8px;
     color: rgba(148, 148, 148, 0.734);
 }
-.imagemlink{
+
+.imagemlink {
     width: 270px;
     height: 150px;
 }
 
-#cadastroImagem{
+#cadastroImagem {
     width: 150px;
     height: 200px;
 }
